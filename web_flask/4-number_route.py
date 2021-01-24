@@ -36,13 +36,11 @@ def pythonText(text):
     return ("Python %s" % text.replace('_', ' '))
 
 
-@app.route('/number/<n>')
+@app.route('/number/<int:n>')
 def displayNumber(n):
     """ display “C ” followed by the value
     """
-    if n.isnumeric():
-        return ("%s is a number" % n)
-    return
+    return ("%d is a number" % n)
 
 
 if __name__ == '__main__':
