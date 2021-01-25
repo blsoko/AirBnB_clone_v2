@@ -1,0 +1,15 @@
+header{
+    background:white;
+    height:70px;
+    width:100%;
+    border-bottom: 1px solid #CCCCCC;
+}
+.header_logo{
+    width: 100%;
+    height: 60px;
+    background-image: url(../images/header_logo);
+    background-repeat: no-repeat;
+    background-position: left;
+
+	margin-left: 20px;
+}
